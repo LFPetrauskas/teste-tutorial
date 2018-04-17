@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #a5a5a54d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #393891;
+}
+input:hover {
+    color: #fcfcfc;
+    background-color: dodgerblue;
+}
+
+h2, label, li{
+    color: #0d8aff;
+    border-radius: 5px;
+}
+
+li {
+    width: 20vw;
+    line-height: 6vh;
+    margin-bottom: 5px;
+    background-color: #7270f1;
+    color: #043666;
+}
+
+li:hover {  
+    width: 20vw;
+    line-height: 6vh;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    left: -1px;
+    color: #637586;
+}
+
+.badge {
+    background-color: rgb(58, 8, 122);
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fcfcfc;
+}
+
+.selected {
+    background-color: #393891 !important;
+    color: #dce5ee !important;
+}
+
+.selected:hover {
+    background-color: #a31e61 !important;
+    color: #f0ec1b !important;
+}
+
+.tabela {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.details {
+    margin-left: 20px;
+}
