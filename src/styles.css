@@ -29,13 +29,13 @@ li:hover {
     width: 20vw;
     line-height: 6vh;
     margin-bottom: 5px;
-    background-color: #ffffff;
+    background-color: #a6a5f3;
     left: -1px;
     color: #637586;
 }
 
 .badge {
-    background-color: rgb(58, 8, 122);
+    background-color: #3a087a;
     position: relative;
     display: inline-block;
     padding: 5px;
@@ -45,7 +45,7 @@ li:hover {
 }
 
 .selected {
-    background-color: #393891 !important;
+    background-color: #3938919c !important;
     color: #dce5ee !important;
 }
 
@@ -79,7 +79,7 @@ li:hover {
 }
 
 .navmenu:hover{
-    background-color: #0d8aff;
+    background-color: #709ff5a6;
 }
 
 .col-1-4 {
@@ -96,6 +96,9 @@ li:hover {
     background-color: #70a31e59;
 }
 
+.col-1-4:hover {
+    background-color: #aef83775;
+}
 
 a {
     text-decoration-line: none;
