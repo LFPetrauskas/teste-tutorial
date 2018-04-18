@@ -62,3 +62,43 @@ li:hover {
 .details {
     margin-left: 20px;
 }
+
+.navmenu, .col-1-4{
+    border-radius: 0.35vw;
+    padding: 1vw;
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    margin: 2px;
+    width: fit-content;
+    min-width: 5vw;
+    text-align: center;
+    text-decoration-line: none;
+    color: #000000;
+    background-color: #1e4da359;
+}
+
+.navmenu:hover{
+    background-color: #0d8aff;
+}
+
+.col-1-4 {
+    border-radius: 0.35vw;
+    padding: 1vw;
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    margin: 2px;
+    width: 12vw;
+    min-width: fit-content;
+    text-align: center;
+    color: #000000;
+    background-color: #70a31e59;
+}
+
+
+a {
+    text-decoration-line: none;
+    color: #043666;
+    font-weight: bold;
+}
